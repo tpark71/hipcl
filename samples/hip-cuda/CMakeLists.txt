@@ -5,7 +5,7 @@ set(SAMPLES
     dwtHaar1D
     FastWalshTransform
     FloydWarshall
-    Histogram
+#    Histogram
 #   still broken:
 #    PrefixSum
     RecursiveGaussian
