@@ -9,6 +9,7 @@ endif()
 if(VERBOSE)
   add_compile_options("-v")
 endif()
+add_compile_options("-std=c++11")
 
 # ARGN = test args
 function(add_hipcl_test EXEC_NAME TEST_NAME TEST_PASS SOURCE)
@@ -69,7 +70,7 @@ set(SAMPLES
     3_shared_memory
     4_shfl
     5_2dshfl
-    6_dynamic_shared
+#    6_dynamic_shared
     hipInfo
 #    7_streams
 #    9_unroll
